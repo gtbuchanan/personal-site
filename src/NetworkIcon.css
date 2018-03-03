@@ -1,0 +1,9 @@
+.NetworkIcon {
+    text-decoration: none;
+}
+
+    .NetworkIcon img {
+        width: auto;
+        height: 45px;
+        padding: 0 5px;
+    }

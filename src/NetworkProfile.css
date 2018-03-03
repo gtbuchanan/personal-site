@@ -1,0 +1,92 @@
+main > img {
+	margin: 10px 15px;
+	vertical-align: middle;
+	border: 2px solid #444;
+	border-radius: 150px;
+}
+
+.NetworkGroup.financial,
+.NetworkGroup.all-networks {
+	display: block;
+	text-align: center;
+}
+
+	.NetworkGroup.financial h2,
+	.NetworkGroup.all-networks h2 {
+		display: table;
+		margin: 0 auto;
+		border-top-left-radius: 0;
+		border-top-right-radius: 0;
+	}
+
+.NetworkGroup.professional h2,
+.NetworkGroup.social h2 {
+	width: 1em;
+	word-wrap: break-word;
+	vertical-align: middle;
+	margin: 2px;
+}
+
+.NetworkGroup.professional h2 {
+	border-top-right-radius: 0;
+	border-bottom-right-radius: 0;
+}
+
+.NetworkGroup.social h2 {
+	border-top-left-radius: 0;
+	border-bottom-left-radius: 0;
+}
+
+.NetworkGroup.all-networks ul {
+	border-left: none;
+	border-right: none;
+}
+
+.NetworkGroup.all-networks img {
+	height: 60px;
+	padding: 5px;
+}
+
+.NetworkGroup.professional ul,
+.NetworkGroup.social ul {
+	display: inline-block;
+	margin: -4px;
+	padding: 0 5px;
+	vertical-align: middle;
+}
+
+.NetworkGroup.professional li,
+.NetworkGroup.social li {
+	display: list-item;
+	padding: 5px 0;
+}
+
+.NetworkGroup.social img {
+	height: 35px;
+	padding: 0 12px;
+}
+	
+.NetworkGroup.financial ul {
+	display: inline-block;
+}
+
+.NetworkGroup.financial li {
+	padding: 0 3px;
+}
+
+@media only screen and (min-width: 481px) {
+	main {
+		display: block;
+		margin-top: 8%;
+	}
+
+	.NetworkGroup.all-networks {
+		display: none;
+	}
+}
+
+@media only screen and (max-width: 480px) {
+	.NetworkGroup:not(.all-networks) {
+		display: none;
+	}
+}
