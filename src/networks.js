@@ -36,12 +36,6 @@ export default [
         type: "Social"
     },
     {
-        name: "Google+",
-        uri: "https://plus.google.com/u/0/+TaylorBuchanan",
-        icon: require("./networks/google-plus-icon.png"),
-        type: "Social"
-    },
-    {
         name: "YouTube",
         uri: "https://www.youtube.com/c/TaylorBuchanan",
         icon: require("./networks/youtube-icon.png"),

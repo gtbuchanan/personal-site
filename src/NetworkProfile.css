@@ -61,11 +61,6 @@ main > img {
 	padding: 5px 0;
 }
 
-.NetworkGroup.social img {
-	height: 35px;
-	padding: 0 12px;
-}
-	
 .NetworkGroup.financial ul {
 	display: inline-block;
 }
