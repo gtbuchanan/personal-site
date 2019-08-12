@@ -37,6 +37,10 @@ main > img {
 	border-bottom-left-radius: 0;
 }
 
+.NetworkGroup.social img {
+	height: 34px;
+}
+
 .NetworkGroup.all-networks ul {
 	border-left: none;
 	border-right: none;
@@ -53,6 +57,10 @@ main > img {
 	margin: -4px;
 	padding: 0 5px;
 	vertical-align: middle;
+}
+
+.NetworkGroup.social ul {
+	padding: 0 10px;
 }
 
 .NetworkGroup.professional li,

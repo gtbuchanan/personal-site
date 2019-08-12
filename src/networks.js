@@ -48,6 +48,12 @@ export default [
         type: "Social"
     },
     {
+        name: "Reddit",
+        uri: "https://www.reddit.com/user/gtbuchanan",
+        icon: require("./networks/reddit-icon.png"),
+        type: "Social"
+    },
+    {
         name: "Amazon",
         uri: "http://a.co/2d14VXU",
         icon: require("./networks/amazon-icon.png"),
