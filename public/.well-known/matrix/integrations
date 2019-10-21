@@ -1,0 +1,8 @@
+{
+	"m.integrations_widget": {
+		"url": "https://dimension.taylorbuchanan.com/riot",
+		"data": {
+			"api_url": "https://dimension.taylorbuchanan.com/api/v1/scalar"
+		}
+	}
+}
