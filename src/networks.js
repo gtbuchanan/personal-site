@@ -1,5 +1,11 @@
 export default [
     {
+        name: "16 Personalities",
+        uri: "https://www.16personalities.com/profiles/56e426111ff28",
+        icon: require("./networks/16-personalities-icon.png"),
+        type: "Professional"
+    },
+    {
         name: "LinkedIn",
         uri: "https://www.linkedin.com/in/gtbuchanan",
         icon: require("./networks/linkedin-icon.png"),
@@ -24,9 +30,15 @@ export default [
         type: "Professional"
     },
     {
-        name: "16 Personalities",
-        uri: "https://www.16personalities.com/profiles/56e426111ff28",
-        icon: require("./networks/16-personalities-icon.png"),
+        name: "Matrix",
+        uri: "https://matrix.to/#/@taylor:taylorbuchanan.com",
+        icon: require("./networks/matrix-icon.png"),
+        type: "Social"
+    },
+    {
+        name: "Telegram",
+        uri: "https://www.t.me/gtbuchanan",
+        icon: require("./networks/telegram-icon.png"),
         type: "Social"
     },
     {
@@ -54,15 +66,15 @@ export default [
         type: "Social"
     },
     {
-        name: "Amazon",
-        uri: "http://a.co/2d14VXU",
-        icon: require("./networks/amazon-icon.png"),
-        type: "Financial"
-    },
-    {
         name: "PayPal",
         uri: "https://paypal.me/gtbuchanan",
         icon: require("./networks/paypal-icon.png"),
+        type: "Financial"
+    },
+    {
+        name: "Amazon",
+        uri: "http://a.co/2d14VXU",
+        icon: require("./networks/amazon-icon.png"),
         type: "Financial"
     },
     {

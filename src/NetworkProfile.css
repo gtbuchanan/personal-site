@@ -32,13 +32,17 @@ main > img {
 	border-bottom-right-radius: 0;
 }
 
+.NetworkGroup.professional img {
+	height: 38px;
+}
+
 .NetworkGroup.social h2 {
 	border-top-left-radius: 0;
 	border-bottom-left-radius: 0;
 }
 
 .NetworkGroup.social img {
-	height: 34px;
+	height: 30px;
 }
 
 .NetworkGroup.all-networks ul {
