@@ -12,5 +12,8 @@
                 "ui_url": "https://dimension.taylorbuchanan.com/riot"
             }
         ]
+    },
+    "im.vector.riot.jitsi": {
+        "preferredDomain": "meet.taylorbuchanan.com"
     }
 }
