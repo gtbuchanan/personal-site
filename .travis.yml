@@ -8,10 +8,10 @@ script: npm test && npm run build
 deploy:
   provider: pages
   repo: gtbuchanan/gtbuchanan.github.io
-  target-branch: master
+  target-branch: main
   github-token: $GITHUB_TOKEN
   keep-history: true
   skip-cleanup: true
   local-dir: build
   on:
-    branch: master
+    branch: main
