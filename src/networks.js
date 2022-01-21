@@ -72,6 +72,12 @@ export default [
         type: "Financial"
     },
     {
+        name: "Cash App",
+        uri: "http://cash.app/$gtbuchanan",
+        icon: require("./networks/cash-app-icon.png"),
+        type: "Financial"
+    },
+    {
         name: "Amazon",
         uri: "http://a.co/2d14VXU",
         icon: require("./networks/amazon-icon.png"),
